@@ -1,0 +1,19 @@
+{
+  "name": "cassette.moe",
+  "version": "1.0.0",
+  "description": "Sito personale di cassetteboi",
+  "main": "sass/style.scss",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cassettemoe",
+    "cassetteboi"
+  ],
+  "author": "Andrea Veraldi",
+  "license": "ISC"
+}

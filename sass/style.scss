@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+$link: $grey-darker;
+$text-strong: inherit;
+nav div.columns div.column a p{
+    color:$black;
+  }
+
+.hero-body .container .block.site-title{
+    margin-bottom: 6em;
+}

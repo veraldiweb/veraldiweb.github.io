@@ -1,0 +1,9 @@
+strong {
+    color: currentColor;
+  }
+.hero-body .container .block.site-title{
+  margin-bottom: 6em;
+}
+nav div.columns div.column a p{
+  color:hsl(0,0%,4%)
+}

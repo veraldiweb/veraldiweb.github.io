@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--Title: Sito internet di Andrea Veraldi - Dominio da definire  -->
+        <!--Description: come da titolo, sviluppare un sito per il tale;
+
+            Nomi di domini possibili:
+            - cassette.moe
+            - cassetta.moe
+            - cassette.xyz
+            - cassetta.xyz
+
+            La home sarà composta un menù da due colonne in centro:
+            XXXX1122XXXX
+            XXXX3344XXXX
+            XXXX5566XXXX
+
+            con i link delle varie sezioni del sito, redirigenti alle sezioni
+            (sottodomini) del sito:
+            - About - una sottospecie di bio portfolio con presentazioni
+            - Aqua - aqua web-server
+            - Blog - un blog magari più serio di quello che avevo su live.it?
+                un blog senza CMS può essere fatto con JS+JSON se possibile
+            - Booru* - ImageBoard personale (CassetteBooru?)
+            - E-A server senza nome - e-amusement web-server con un gran 
+                bisogno di nome proprio 
+            - Vi-chan* - ImageBoard personale (CassetteChan?)
+
+            *potrebbe essere preso di mira da attacchi DDOS senza dei captcha
+
+            La home come anche il blog avrà bisogno di un framework scattante
+            per un server non tanto potente e le possibiltà sono...
+            - Bootstrap (+jquery)
+            - Skeleton
+            - Bulma
+            - Ghost
+            e il tutto questo che non gira su php ma con file json?
+            PHP deve essere usato per elementi mission-critical quali i
+            webserver in sottodominio
+
+            Sfondo: spaziale o astratto, con mascotte all'angolo?
+
+            Header: citazione casuale
+
+            Contenuto: Menù
+
+            Footer: 
+            - Copyright
+            - Data e ora sito
+            - Contact us mail
+
+            XXHHHHHHHHXX
+            XXXXMMMMXXXX
+            XXXXMMMMXXXX
+            XXXXMMMMXXMA
+            XXFFFFFFFFMA
+
+        -->
+        <!--head things-->
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>cassette.moe</title>
+
+
+        <!--CSS/JS Frameworks-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/elements.js" type="text/javascript" defer></script>
+        <!--SEO stuff-->
+        <!--favicons-->
+    </head>
+    <body>
+        <section class="hero is-fullheight">
+        <!--Hero title-->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="block site-title">
+                        <h1 class="title is-size-2">cassette.moe</p>
+                    </div>
+                    <!--Menu elements-->
+                    <nav class="block is-size-5 has-text-dark">
+                        <div class="columns is-half-tablet is-centered">
+                            <div class="column is-one-quarter ">
+                                <a href="about.html" >
+                                    <p>About</p>
+                                </a>
+                            </div>
+                            <div class="column is-one-quarter">
+                                <a href="">
+                                    <p>Aqua</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="columns is-half-tablet is-centered">
+                            <div class="column is-one-quarter">
+                                <a href="blog.html">
+                                    <p>Blog</p>
+                                </a>
+                            </div>
+                            <div class="column is-one-quarter">
+                                <a href="">
+                                    <p>Booru</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="columns is-half-tablet is-centered">
+                            <div class="column is-one-quarter">
+                                <a href="">
+                                    <p>Chan</p>
+                                </a>
+                            </div>
+                            <div class="column is-one-quarter">
+                                <a href="">
+                                    <p>E-Amu</p>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero-foot has-background-black">
+                <div class="container">
+                    <footer-element></footer-element>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
